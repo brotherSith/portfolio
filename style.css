@@ -1,0 +1,210 @@
+*{
+    --text: #fbf6fd;
+    --background: #11051a;
+    --primary-button: #e8c38c;
+    --secondary-button: #260b37;
+    --accent: #8ce8c3;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Catfont';
+    src: url('fonts/KiddosyfreeRegular-GOEag.otf') format('truetype');
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+body{
+    
+    background-color: var(--background);
+    background-image: url("images/simple-background.jpg");
+    background-size: cover;
+    
+}
+.main{
+    display: block;
+}
+#navbar {
+    overflow: hidden;
+  }
+
+.nav-container{
+    
+    margin-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-container img{
+    height: 80px;
+}
+.nav-container ul{
+    list-style-type: none;
+    
+}
+.nav-container ul li{
+    font-family: 'Catfont', sans-serif;
+    display: inline-block;
+    margin-left: 35px;
+}
+.nav-container ul li a{
+    text-decoration: none;
+    color: rgb(38, 11, 55,0.5);
+    font-size: 2.5rem;
+}
+.sidebar .contact{
+    top: 30%;
+    height: 530px;
+    left: 35px;
+    position: fixed;
+    width: 50px;
+    display: block;
+}
+.sidebar .contact img{
+    margin-top: 10px;
+    width: 50px;
+}
+.intro{
+    
+    /* border: 1px solid var(--text); */
+    display: block;
+    padding: 30px;
+    text-align: center;
+    height: 780px;
+}
+
+.intro img{
+    border-radius: 50%;
+    /* border: 1px solid var(--text); */
+    width: 250px;
+    height: 250px;
+    filter: drop-shadow(0px 5px 10px rgba(197, 173, 173, 0.3))
+}
+.intro .text{
+    margin-top: 30px;
+    /* border: 1px solid var(--text); */
+}
+.intro .text .pn{
+    font-family: 'Catfont';
+    font-size: 2.3rem;
+    color: var(--secondary);
+}
+.intro .text p{
+    font-size: 1.5rem;
+    color: var(--secondary);
+}
+.skills{
+    margin-top: 90px;
+    /* border: 1px solid var(--text); */
+    display: block;
+    padding: 40px;
+    text-align: center;
+    height: 780px;
+}
+.skills .text .pn{
+    font-family: 'Catfont';
+    font-size: 2.5rem;
+    color: var(--secondary);
+}
+.skillogo-1{
+    width: 650px;
+    display: inline-block;
+    /* border: 1px solid var(--text); */
+    text-align: center;
+}
+.skills .skillogo-1 img{
+    margin-top: 10px;
+    width: 130px;
+    padding: 15px;
+    
+    
+}
+.skillogo-2{
+    margin-top: 15px;
+    display: inline-block;
+    /* border: 1px solid var(--text); */
+    text-align: center;
+}
+.skills .skillogo-2 img{
+    margin-top: 10px;
+    width: 130px;
+    padding: 15px;
+    
+}
+.portfolio{
+    margin-top: 90px;
+    /* border: 1px solid var(--text); */
+    display: block;
+    padding: 40px;
+    text-align: center;
+    height: 780px;
+    
+}
+.portfolio .port{
+    font-family: "Catfont";
+    font-size: 3rem;
+    color: var(--secondary);
+}
+.portfolio .show{
+    margin: 0 auto;
+    display: flex;
+    gap: 4px;
+    width: 700px;
+}
+.portfolio .card{
+    position: relative;
+    left: 0;
+    width: 80px;
+    border-radius: 5px;
+    padding: 8px;
+    height: 360px;
+    transition: 0.4s ease-in-out;
+    flex: 1px;
+}
+.card:nth-child(1){
+    background-image: url('images/shark.jpg');
+    background-size: cover;
+    
+}
+.card:nth-child(2){
+    background-image: url('images/cat.jpg');
+    background-size: cover;
+}
+.card:nth-child(3){
+    background-image: url('images/sloth.jpg');
+    background-size: cover;
+}
+.card:nth-child(4){
+    background-image: url('images/axolotl.jpg');
+    background-size: cover;
+}
+.card:hover{
+    flex: 3;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.5);
+}
+
+.top{
+    position: fixed;
+    background: transparent;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+}
+.top img{
+    width: 50px;
+    height: 50px;
+}
+.top:hover{
+    cursor: pointer;
+    filter: drop-shadow(0px 5px 10px rgba(255, 255, 255, 0.5));
+}
+.nav-container ul li a:hover{
+    color: rgb(38, 11, 55);
+}

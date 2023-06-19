@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="w<!-- idth=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <section class="header" id="navbar">
+        <div class="nav-container">
+            <img src="images/Meowlogo.png" alt="">
+            <ul>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="sidebar">
+        <div class="contact">
+            <a href="https://www.facebook.com/profile.php?id=100093438046432"><img src="images/facebook.jpg" alt="" style="width: 50px;border-radius: 50%;"></a>
+            <a href="https://www.instagram.com/bounyasithchindamay/"><img src="images/IG.png" alt="" style="width: 50px;border-radius: 50%;"></a>
+            <a href="https://twitter.com/bounyasithcdm"><img src="images/twitter.png" alt="" style="width: 50px;border-radius: 50%;"></a>
+        </div>
+    </section>
+    <section class="intro" id="intro">
+        <div class="profile">
+            <img src="images/profile.jpg" alt="" style="object-fit: cover">
+            <!-- <img src="images/Pom1.png" alt="" style="object-fit: cover"> -->
+        </div>
+        <div class="text">
+            <p class="pn">Hi, I'm Bounyasith</p>
+            <br>
+            <p>I am a junior developer and graphic designer</p>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="text">
+            <p class="pn">My Skills</p>
+            <br>
+        </div>
+        <div class="skillogo-1">
+            <img src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" alt="" style="object-fit: cover">
+            <img src="https://seeklogo.com/images/J/javascript-js-logo-2949701702-seeklogo.com.png" alt="" style="object-fit: cover">
+            <img src="https://seeklogo.com/images/G/go-logo-046185B647-seeklogo.com.png" alt="" style="object-fit: cover">
+            <img src="https://seeklogo.com/images/P/php-logo-DC4A01DBB6-seeklogo.com.png" alt="" style="object-fit: cover">
+           
+        </div>
+        <div class="skillogo-2">
+            <img src="https://seeklogo.com/images/C/css3-logo-F1923C8D0E-seeklogo.com.png" alt="" style="object-fit: cover">
+            <img src="https://seeklogo.com/images/A/adobe-indesign-logo-F764EEC2F9-seeklogo.com.png" alt="" style="object-fit: cover">
+            <img src="https://seeklogo.com/images/A/adobe-photoshop-logo-7B88D7B5AA-seeklogo.com.png" alt="" style="object-fit: cover">
+            <img src="https://seeklogo.com/images/A/adobe-illustrator-logo-775FAF240B-seeklogo.com.png" alt="" style="object-fit: cover">
+            <img src="https://seeklogo.com/images/A/adobe-premiere-logo-0B31ECF881-seeklogo.com.png" alt="" style="object-fit: cover">
+            <img src="https://seeklogo.com/images/A/adobe-xd-logo-39468DE5D4-seeklogo.com.png" alt="" style="object-fit: cover">
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="port">
+            <p>Portfolio</p>
+        </div>
+        <br><br><br>
+        <div class="show">
+            <div class="card">
+                
+            </div>
+            <div class="card">
+                
+            </div>
+            <div class="card">
+                
+            </div>
+            <div class="card">
+                
+            </div>
+        </div>
+    </section>
+    <div>
+        <div class="top" id="top">
+            <img src="images/uparrow.png" alt="">
+        </div>
+    </div>
+</body>
+<script>
+    const btntotop = document.querySelector("#top")
+    btntotop.addEventListener("click",function(){
+        window.scrollTo(0,0)
+    })
+</script>
+</html>
